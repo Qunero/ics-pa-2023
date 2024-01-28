@@ -10,6 +10,17 @@ To initialize, run
 ```bash
 bash init.sh subproject-name
 ```
+
+- init from gitee.com, run:
+```bash
+bash gitee-init.sh subproject-name
+# eg1: for nemu
+bash gitee-init.sh nemu
+
+# eg2: for abstract-machine
+bash gitee-init.sh abstract-machine
+```
+
 See `init.sh` for more details.
 
 The following subprojects/components are included. Some of them are not fully implemented.
